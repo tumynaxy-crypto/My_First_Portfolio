@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Tumy Seoane - Personal Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background-color: #111;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        article.project {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h1, h2, h3 {
+            margin-top: 0;
+        }
+
+        a {
+            color: #4CAF50;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Tumy Seoane</h1>
+        <p>Adventurous Architect & Aspiring Web Developer</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>Hello! I’m Tumy Seoane, an architect with 10 years of experience, exploring web development and innovative solutions. I enjoy combining creativity with functionality and am passionate about designing both spaces and 
+digital experiences.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <article class="project">
+            <h3>Project One</h3>
+            <p>A web-based portfolio showcasing my architectural designs and 3D models.</p>
+            <a href="https://github.com/username/project-one" target="_blank">View Project</a>
+        </article>
+
+        <article class="project">
+            <h3>Project Two</h3>
+            <p>An interactive site for learning front-end development with HTML, CSS, and JavaScript.</p>
+            <a href="https://github.com/username/project-two" target="_blank">View Project</a>
+        </article>
+
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I have a decade of experience in architecture, with skills in project management, design, and client relations. I’m also exploring front-end development and web design to expand my digital skills.</p>
+        <ul>
+            <li>Skills: HTML, CSS, JavaScript, AutoCAD, Revit</li>
+            <li>Hobbies: Hiking, cooking, astronomy, and adventure sports</li>
+            <li>Languages: English, French, Sesotho</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:tumy.seoane@example.com">tumy.seoane@example.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/tumyseoane" target="_blank">linkedin.com/in/tumyseoane</a></p>
+        <p>GitHub: <a href="https://github.com/tumyseoane" target="_blank">github.com/tumyseoane</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tumy Seoane</p>
+    </footer>
+
+</body>
+</html>
+
